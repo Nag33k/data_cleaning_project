@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1573555897921.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "166B66AC",
+    "lastKnownWriteTime" : 1573556351,
+    "last_content_update" : 1573556351396,
+    "path" : "~/codeclan_work/homework/week_04/day_02_dirty_data/1_decathlon/data_cleaning_scripts/data_cleaning.R",
+    "project_path" : "data_cleaning_scripts/data_cleaning.R",
+    "properties" : {
+        "cursorPosition" : "6,9",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
