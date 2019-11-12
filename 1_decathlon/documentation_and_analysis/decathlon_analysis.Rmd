@@ -1,0 +1,123 @@
+---
+title: "Decathlon Analysis"
+author: "Keegan S"
+date: "12/11/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r echo = FALSE, message = FALSE}
+library(tidyverse)
+library(here)
+library(knitr)
+```
+
+## Data Cleaning Notes
+
+I have removed the events that were not required to answer the brief questions, and have moved all scores and points into their own long-form column to allow for faster processing with TidyVerse. The units are different across events, i.e., distance vs. time, time vs. points, etc., but can be inferred from the event being analyzed. As far as analysis is concerned, we only need the raw numbers. 
+
+First things first, load in the data:
+
+```{r message = FALSE}
+decathlon_tidy <- read_csv(here::here("clean_data/decathlon_tidy.csv"))
+```
+
+## Question 1: Who had the longest long jump seen in the data?
+
+```{r}
+longest_jump <- decathlon_tidy %>%
+  #filter by long jump
+  filter(event == "long_jump") %>%
+  #sort by score descending
+  arrange(desc(scores)) %>%
+  #select topmost score
+  slice(1)
+
+kable(longest_jump)
+```
+
+Out of all competitors at both events, Clay showed the longest long jump at OlympicG with a score of 7.96.
+
+## Question 2: What was the average 100m time in each competition?
+
+```{r}
+avg_100m <- decathlon_tidy %>%
+  filter(event == "x100m") %>%
+  group_by(competition) %>%
+  #be sure to round to two digits to maintain significant figures
+  summarise(avg_100m = round(mean(scores), digits = 2))
+
+kable(avg_100m)
+```
+
+OlympicG had faster 100m runs overall, with an average time of 10.92 compared to Decastar's 11.18. 
+
+
+## Question 3: Who had the highest total points across both competitions?
+
+```{r}
+highest_points_total <- decathlon_tidy %>%
+  filter(event == "points") %>%
+  group_by(name) %>%
+  summarise(total_points = sum(scores)) %>%
+  arrange(desc(total_points)) %>%
+  slice(1)
+
+kable(highest_points_total)
+```
+
+Sebrle had the highest total points across both competitions with 17,110 points in total. This is a somewhat unfair question as not all competitors competed in both events, but this was the question from the brief. 
+
+## Question 4: What was the shot-put scores for the top three competitors in each competition?
+
+Assumption: "top three competitors" means top three by rank, not top-most shot put scores.
+```{r}
+shot_scores <- decathlon_tidy %>%
+  #separate the filters to be sure event doesn't interfere with rank:
+  filter(rank < 4) %>%
+  filter(event == "shot_put")
+
+kable(shot_scores)
+```
+
+## Question 5: What was the average points for competitors who ran the 400m in less than 50 seconds vs. those than ran 400m in more than 50 seconds?
+
+First, check to see if we need to worry about any times of 50.00 seconds even. If there are, the question needs re-phrasing to decide whether 50.00 falls in the higher or lower category:
+```{r}
+#check to see if any competitors got 50.00 seconds even:
+check_unique <- decathlon_tidy %>%
+  filter(event == "x400m") %>%
+  filter(scores == 50.00)
+
+if(count(check_unique) > 0) {
+  print("Competitor with exactly 50.00s - decide where to sort")
+} else print ("No competitors with exactly 50.00s - move forward.")
+```
+
+```{r}
+#First, divide the competitor/event combination into each category:
+less_than_50 <- decathlon_tidy %>%
+  filter(event == "x400m") %>%
+  filter(scores < 50)
+
+more_than_50 <- decathlon_tidy %>%
+  filter(event == "x400m") %>%
+  filter(scores > 50)
+
+#filter main table to match results from categories
+
+less_than_50_scores <- decathlon_tidy %>%
+  semi_join(less_than_50, by = c("name", "competition")) %>%
+  filter(event == "points")
+
+more_than_50_scores <- decathlon_tidy %>%
+  semi_join(more_than_50, by = c("name", "competition")) %>%
+  filter(event == "points")
+```
+
+The average points for competitors who ran the 400m in less than 50 seconds was `r round(mean(less_than_50_scores$scores), digits = 0)` points.  
+
+The average points for competitors who ran the 400m in more than 50 seconds was `r round(mean(more_than_50_scores$scores), digits = 0)` points.  
