@@ -1,0 +1,46 @@
+---
+title: "cakes_analysis"
+author: "Keegan S"
+date: "12/11/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(here)
+library(knitr)
+```
+
+The only assumption made during data cleaning was that "Sour cream cup" could be measured in terms of "one" units. This makes intuitive sense as the name suggests that it comes in pre-packaged cups, but the cups might not necessarily be exactly one cup measurement.
+
+First: import clean data:
+
+```{r message=FALSE}
+cakes_clean <- read_csv(here::here("clean_data/cakes_clean.csv"))
+```
+
+## Question 1: Which cake has the most cocoa in it?
+
+```{r}
+most_cocoa <- cakes_clean %>%
+  filter(ingredient == "Cocoa") %>%
+  arrange(desc(amount)) %>%
+  slice(1)
+
+kable(most_cocoa)
+```
+
+## Question 2: For sponge cake, how many cups of ingredients are used in total?
+
+Let's look at the ingredients:
+```{r}
+sponge_ingredients <- cakes_clean %>%
+  select(cakes, measure, ingredient, amount) %>%
+  filter(cakes == "Sponge")
+
+kable(sponge_ingredients)
+```
+
+Teaspoons can be easily converted into cups, but we'll have to make an estimate for Eggs. 
+
