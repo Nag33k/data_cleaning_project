@@ -42,5 +42,75 @@ sponge_ingredients <- cakes_clean %>%
 kable(sponge_ingredients)
 ```
 
-Teaspoons can be easily converted into cups, but we'll have to make an estimate for Eggs. 
+One teaspoon is 0.0208333 cups, but we'll have to make an estimate for Eggs. A quick Google search yields the following conversion:
+
+<center>
+![](egg_conversion.png) 
+</center>
+
+So the conversion is 4 eggs to 1 cup, or 1 egg is 0.25 cups. All that's left to do is convert all ingredients to cups and sum:
+
+```{r}
+#pull out individual measurements:
+sponge_teaspoons <- sponge_ingredients %>%
+  filter(measure == "teaspoon")
+
+#could hard-code eggs, but will try to keep the code flexible:
+sponge_eggs <- sponge_ingredients %>%
+  filter(ingredient == "Eggs")
+
+sponge_cups <- sponge_ingredients %>%
+  filter(measure == "cup")
+
+#convert and sum it all up:
+
+kable(round(((sum(sponge_teaspoons$amount)) * 0.0208333) + 
+  (sum(sponge_eggs$amount) * 0.25) +
+  (sum(sponge_cups$amount)), digits = 2))
+```
+
+So there are 4.54 cups of ingredients in a sponge cake. 
+
+## Question 3: How many ingredients are measured in teaspoons?
+
+```{r}
+#pull out teaspoons, count unique items:
+
+teaspoons <- cakes_clean %>%
+  filter(measure == "teaspoon")
+
+kable(count(teaspoons))
+```
+
+45 different ingredients are measured in teaspoons.
+
+## Question 4: Which cake has the most unique ingredients?
+
+```{r}
+#group by cake, summarise by unique ingredient count:
+
+unique_ingredients <- cakes_clean %>%
+  group_by(cakes) %>%
+  summarise("unique_ingredients" = n_distinct(ingredient)) %>%
+  arrange(desc(unique_ingredients)) %>%
+  slice(1:3)
+
+kable(unique_ingredients)
+```
+
+Babas au Rhum	and One Bowl Chocolate cakes are tied with 11 unique ingredients apiece.
+
+
+## Question 5: Which ingredients are used only once?
+
+```{r}
+
+ingredients_once <- cakes_clean %>%
+  group_by(ingredient) %>%
+  count(ingredient) %>%
+  rename("times_used" = "n") %>%
+  filter(times_used == 1)
+
+kable(ingredients_once)
+```
 
