@@ -1,0 +1,96 @@
+---
+title: "Sea Birds Analysis"
+author: "Keegan S"
+date: "13/11/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(knitr)
+library(here)
+```
+
+No assumptions had to be made thus far in data cleaning. I have simply extracted the data necessary to answer the brief questions.
+
+First: import data.
+
+```{r message=FALSE}
+obs_clean <- read_csv(here::here("clean_data/obs_clean.csv"))
+```
+
+
+## Question 1: Which bird had the most individual sightings?
+
+```{r}
+#filter by count = 1, group by bird, count occurrences
+ind_sight <- obs_clean %>%
+  filter(count == 1) %>%
+  group_by(common_name, scientific_name, abbreviation) %>%
+  count() %>%
+  rename("individual_sightings" = "n") %>%
+  #arrange descending
+  arrange(desc(individual_sightings)) 
+#select and print topmost value
+kable(ind_sight[1, ])
+```
+
+## Question 2: Which bird had the highest total count?
+
+```{r}
+#group by bird, summarise sum of count
+
+highest_count <- obs_clean %>%
+  group_by(common_name, scientific_name, abbreviation) %>%
+  summarise("total_count" = sum(count)) %>%
+  arrange(desc(total_count))
+
+kable(highest_count[1, ])
+```
+
+## Question 3: Which bird had the highest total count above a latitude of -30?
+
+```{r}
+#filter by latitudes above -30, repeat total count from above
+
+above_30 <- obs_clean %>%
+  filter(lat > -30) %>%
+  group_by(common_name, scientific_name, abbreviation) %>%
+  summarise("total_count_above_30" = sum(count)) %>%
+  arrange(desc(total_count_above_30))
+
+kable(above_30[1, ])
+```
+
+## Question 4: How many different types of birds were only ever seen in groups of 1?
+
+```{r}
+#"group of 1" just means count of 1. No other alternative in the 
+#data documentation. Filter by count = 1, count unique bird names.
+
+groups_of_1 <- obs_clean %>%
+  filter(count == 1) %>%
+  #Note: Some of these are listed as "name" (unidentified). I am going to remove these, as it could artificially inflate the number of types. 
+  #Remove unidentifieds with reg exp:
+  filter(!str_detect(common_name, 
+                     fixed("unidentified", ignore_case = TRUE)))
+#print total number of unique entries
+kable(length(unique(groups_of_1$common_name)))
+```
+
+## Question 5: How many penguins were seen? (Hint: there are many types of penguin)
+
+```{r}
+#will have to locate all instances of "penguin" in common_name, case-insensitive.
+
+penguins <- obs_clean %>%
+  filter(str_detect(common_name,
+                    fixed("penguin", ignore_case = TRUE)))
+
+#return sum of count of all penguin results:
+
+kable(sum(penguins$count, na.rm = TRUE))
+```
+
+There were 158 penguins seen.

@@ -25,7 +25,12 @@ birds_clean <- birds_raw %>%
 
 #join tibbles and export
 
+#note: not terribly worried about NA's, as the brief does not ask for
+#  calculations. Just do full join, and filter as necessary for 
+#  individual questions. There are bird observations that say [NO BIRDS
+#  RECORDED], but again, this can be handled as needed per question.
+
 obs_clean <- ships_clean %>%
-  inner_join(birds_clean, by = "record_id")
+  full_join(birds_clean, by = "record_id")
 
 write_csv(obs_clean, "clean_data/obs_clean.csv")

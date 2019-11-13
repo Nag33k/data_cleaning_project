@@ -456,6 +456,7 @@ record_id,lat,common_name,scientific_name,abbreviation,count
 1104008,-32,Pomarine skua AD,Stercorarius pomarinus AD,STEPOM AD,2
 1104008,-32,Pomarine skua SUBAD,Stercorarius pomarinus SUBAD,STEPOM SUBAD,4
 1104008,-32,Tern (unidentified),Sterna sp.,STENSP,50
+1104009,-32,NA,NA,NA,NA
 1104010,-32,Pomarine skua AD,Stercorarius pomarinus AD,STEPOM AD,NA
 1104010,-32,Jaeger (unidentified),Stercorarius sp,STECSP,NA
 1104011,-33,Wandering albatross sensu lato PL1,Diomedea antipodensis / exulans PL1,DIOANTEXU PL1,1
@@ -49017,3 +49018,4 @@ record_id,lat,common_name,scientific_name,abbreviation,count
 88007036,-35.88333333333333,Southern black-backed gull SUBAD,Larus dominicanus SUBAD,LARDOM SUBAD,2
 88007036,-35.88333333333333,Red-billed gull,Larus novaehollandiae,LARNOV,12
 88007036,-35.88333333333333,White-fronted tern,Sterna striata,STESTR,2
+1184009,NA,Black-browed albatross sensu lato AD,Diomedea impavida / melanophrys AD,DIOIMPMEL AD,NA
