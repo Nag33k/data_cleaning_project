@@ -106,9 +106,12 @@ Babas au Rhum	and One Bowl Chocolate cakes are tied with 11 unique ingredients a
 ```{r}
 
 ingredients_once <- cakes_clean %>%
+  #group by ingredients
   group_by(ingredient) %>%
+  #count number of times each ingredient appears
   count(ingredient) %>%
   rename("times_used" = "n") %>%
+  #filter to only ingredients used once
   filter(times_used == 1)
 
 kable(ingredients_once)
