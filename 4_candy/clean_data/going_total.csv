@@ -7,7 +7,6 @@ age,going
 38,No
 48,No
 39,No
-9e22,Yes
 54,No
 40,No
 38,No
@@ -35,10 +34,8 @@ age,going
 43,No
 45,Yes
 60,No
-NA,No
 49,No
 34,No
-NA,No
 36,No
 47,No
 52,No
@@ -49,21 +46,16 @@ NA,No
 64,No
 46,Yes
 53,No
-NA,No
 32,No
 57,No
 27,No
-NA,Yes
 54,No
 31,No
-NA,No
 50,No
 42,No
 32,No
-NA,No
 30,No
 28,No
-NA,No
 44,Yes
 54,Yes
 38,Yes
@@ -82,8 +74,6 @@ NA,No
 41,No
 47,No
 46,No
-NA,No
-NA,No
 43,No
 43,No
 36,No
@@ -120,7 +110,6 @@ NA,No
 46,No
 42,No
 40,No
-NA,No
 40,No
 33,No
 37,No
@@ -130,7 +119,6 @@ NA,No
 39,No
 32,No
 27,No
-NA,No
 41,Yes
 55,No
 32,No
@@ -160,7 +148,6 @@ NA,No
 51,No
 37,No
 32,No
-NA,Yes
 43,No
 41,No
 27,No
@@ -174,7 +161,6 @@ NA,Yes
 45,No
 34,No
 36,No
-NA,Yes
 12,Yes
 12,Yes
 50,No
@@ -188,7 +174,6 @@ NA,Yes
 55,No
 38,No
 33,No
-NA,No
 35,Yes
 60,No
 49,No
@@ -202,7 +187,6 @@ NA,No
 27,No
 40,Yes
 49,No
-NA,No
 39,No
 53,No
 35,No
@@ -213,7 +197,6 @@ NA,No
 49,No
 49,No
 49,No
-NA,No
 35,No
 41,No
 48,No
@@ -227,7 +210,6 @@ NA,No
 53,No
 52,No
 57,No
-NA,No
 33,No
 34,Yes
 32,No
@@ -254,7 +236,6 @@ NA,No
 35,No
 30,No
 64,No
-NA,No
 26,Yes
 50,No
 43,No
@@ -264,7 +245,6 @@ NA,No
 37,No
 34,No
 35,No
-NA,No
 53,No
 37,No
 45,No
@@ -272,7 +252,6 @@ NA,No
 40,No
 60,No
 58,No
-NA,No
 43,Yes
 30,No
 48,No
@@ -287,7 +266,6 @@ NA,No
 31,No
 31,No
 53,No
-NA,No
 26,No
 40,No
 44,No
@@ -330,14 +308,12 @@ NA,No
 33,No
 48,No
 40,No
-NA,No
 58,No
 41,No
 51,No
 34,No
 32,No
 41,No
-NA,No
 48,No
 48,No
 32,Yes
@@ -349,7 +325,6 @@ NA,No
 41,Yes
 32,No
 40,No
-NA,No
 8,Yes
 44,No
 34,No
@@ -361,12 +336,10 @@ NA,No
 22,No
 50,No
 40,No
-NA,No
 37,No
 30,No
 42,No
 39,Yes
-NA,No
 43,No
 44,No
 59,No
@@ -376,16 +349,13 @@ NA,No
 54,No
 45,No
 20,Yes
-NA,Yes
 28,No
-1880,No
 35,No
 58,No
 43,No
 46,No
 39,No
 15,No
-NA,No
 29,No
 32,Yes
 50,No
@@ -396,7 +366,6 @@ NA,No
 44,No
 48,No
 31,No
-NA,No
 16,No
 50,No
 45,No
@@ -423,13 +392,9 @@ NA,No
 55,No
 27,No
 24,No
-NA,No
-NA,No
 42,No
 42,Yes
 40,No
-NA,Yes
-NA,No
 43,No
 42,No
 19,No
@@ -459,7 +424,6 @@ NA,No
 45,No
 42,No
 46,No
-NA,No
 30,No
 39,No
 42,Yes
@@ -491,7 +455,6 @@ NA,No
 35,Yes
 45,No
 46,No
-NA,No
 39,No
 37,Yes
 31,No
@@ -505,7 +468,6 @@ NA,No
 50,No
 51,No
 44,No
-NA,No
 50,No
 35,No
 31,No
@@ -514,7 +476,6 @@ NA,No
 32,No
 56,No
 34,No
-NA,No
 45,No
 30,No
 31,No
@@ -550,8 +511,6 @@ NA,No
 18,No
 19,No
 43,No
-NA,No
-NA,No
 47,No
 64,No
 26,No
@@ -609,7 +568,6 @@ NA,No
 42,No
 65,No
 46,No
-NA,No
 36,No
 54,Yes
 47,No
@@ -634,8 +592,6 @@ NA,No
 38,No
 53,No
 37,Yes
-NA,No
-NA,No
 27,No
 37,No
 49,No
@@ -657,10 +613,8 @@ NA,No
 53,No
 39,Yes
 30,No
-NA,No
 22,No
 53,No
-NA,No
 13,Yes
 43,No
 17,No
@@ -669,7 +623,6 @@ NA,No
 45,No
 33,No
 40,No
-NA,No
 46,Yes
 42,No
 56,No
@@ -703,7 +656,6 @@ NA,No
 58,No
 46,No
 50,No
-NA,Yes
 33,No
 34,No
 28,No
@@ -727,7 +679,6 @@ NA,Yes
 28,No
 33,No
 25,No
-NA,Yes
 13,Yes
 61,No
 36,No
@@ -763,23 +714,17 @@ NA,Yes
 31,No
 45,No
 44,No
-NA,No
 37,No
-NA,No
 24,No
-NA,No
 51,No
 38,No
 40,No
-NA,No
 39,No
 25,No
 35,No
 38,No
 40,Yes
-NA,No
 26,No
-NA,No
 30,No
 26,No
 45,Yes
@@ -787,10 +732,8 @@ NA,No
 43,No
 62,No
 45,No
-NA,No
 41,Yes
 49,No
-NA,Yes
 39,No
 32,No
 32,No
@@ -814,7 +757,6 @@ NA,Yes
 45,No
 52,No
 29,No
-NA,No
 42,Yes
 43,No
 25,No
@@ -854,23 +796,18 @@ NA,No
 30,No
 54,No
 21,No
-NA,No
 50,No
 34,No
 36,No
 38,No
 37,No
-NA,No
 36,No
 32,No
 44,No
 55,No
 51,No
-NA,No
-NA,No
 33,No
 46,No
-NA,No
 64,No
 45,No
 64,No
@@ -913,7 +850,6 @@ NA,No
 50,No
 22,No
 23,No
-NA,No
 39,No
 33,Yes
 22,No
@@ -922,7 +858,6 @@ NA,No
 50,No
 50,Yes
 54,No
-200587,Yes
 40,No
 33,Yes
 43,No
@@ -931,14 +866,12 @@ NA,No
 53,No
 30,No
 32,No
-NA,No
 58,No
 40,No
 28,No
 40,No
 36,No
 45,No
-NA,No
 50,No
 56,No
 32,Yes
@@ -986,7 +919,6 @@ NA,No
 25,No
 52,No
 45,No
-NA,No
 32,No
 30,No
 44,No
@@ -1037,7 +969,6 @@ NA,No
 30,No
 62,No
 35,No
-NA,No
 54,No
 36,No
 53,No
@@ -1110,7 +1041,6 @@ NA,No
 40,No
 38,No
 57,No
-NA,No
 48,No
 55,Yes
 33,No
@@ -1120,7 +1050,6 @@ NA,No
 40,Yes
 23,No
 25,No
-NA,No
 41,No
 56,No
 46,No
@@ -1204,11 +1133,9 @@ NA,No
 35,No
 44,No
 46,No
-NA,No
 58,No
 57,No
 38,Yes
-NA,Yes
 30,No
 32,No
 45,No
@@ -1256,7 +1183,6 @@ NA,Yes
 48,No
 40,No
 25,No
-NA,No
 43,Yes
 32,No
 13,Yes
@@ -1266,25 +1192,20 @@ NA,No
 54,No
 54,No
 54,No
-NA,No
 54,No
 67,No
-NA,No
 5,Yes
 51,No
 43,No
 40,No
 43,Yes
 38,No
-NA,No
 32,No
 72,No
 44,No
-NA,No
 32,No
 53,No
 26,No
-NA,No
 32,No
 72,No
 35,No
@@ -1322,10 +1243,8 @@ NA,No
 45,Yes
 44,Yes
 41,No
-NA,No
 44,No
 37,No
-NA,No
 34,No
 54,No
 34,No
@@ -1343,18 +1262,13 @@ NA,No
 39,No
 49,No
 56,No
-NA,No
-NA,No
 40,No
 56,No
 49,Yes
 44,No
 17,Yes
 18,Yes
-NA,No
-NA,No
 7,No
-NA,Yes
 34,No
 57,No
 39,No
@@ -1398,24 +1312,20 @@ NA,Yes
 33,No
 36,No
 34,No
-NA,No
 30,No
 33,No
-NA,No
 56,No
 43,No
 67,No
 43,Yes
 37,No
 49,No
-NA,No
 46,No
 23,No
 44,No
 31,No
 44,No
 41,No
-NA,No
 67,No
 23,No
 39,No
@@ -1424,16 +1334,13 @@ NA,No
 41,No
 47,No
 26,No
-NA,No
 58,No
 62,No
 37,No
-NA,No
 25,No
 34,No
 36,No
 35,No
-NA,No
 45,No
 42,No
 57,No
@@ -1462,14 +1369,12 @@ NA,No
 52,No
 62,No
 43,No
-NA,No
 54,No
 37,No
 41,No
 64,No
 31,No
 62,No
-NA,No
 33,No
 36,No
 30,No
@@ -1480,18 +1385,12 @@ NA,No
 20,Yes
 52,No
 31,No
-NA,No
 44,Yes
 16,Yes
 14,Yes
 35,No
 38,No
 14,Yes
-NA,No
-NA,No
-NA,No
-NA,No
-NA,No
 57,No
 38,No
 27,No
@@ -1500,7 +1399,6 @@ NA,No
 53,No
 46,No
 50,No
-NA,No
 31,No
 14,Yes
 26,No
@@ -1527,7 +1425,6 @@ NA,No
 33,Yes
 37,No
 36,No
-NA,No
 34,No
 29,No
 34,No
@@ -1557,7 +1454,6 @@ NA,No
 46,No
 53,No
 40,Yes
-NA,No
 32,No
 39,No
 77,Yes
@@ -1569,19 +1465,14 @@ NA,No
 53,No
 30,No
 75,No
-NA,No
 49,No
-NA,No
-NA,No
 31,No
 56,No
-NA,No
 39,No
 41,No
 27,No
 46,No
 43,No
-NA,Yes
 41,No
 39,No
 47,No
@@ -1590,7 +1481,6 @@ NA,Yes
 51,No
 27,No
 43,No
-NA,No
 26,No
 46,No
 34,No
@@ -1627,13 +1517,11 @@ NA,No
 34,Yes
 48,No
 46,No
-NA,No
 45,Yes
 45,Yes
 29,No
 47,No
 40,No
-NA,No
 27,No
 34,No
 51,No
@@ -1645,7 +1533,6 @@ NA,No
 48,No
 36,No
 29,No
-NA,No
 33,No
 51,No
 53,No
@@ -1654,7 +1541,6 @@ NA,No
 36,Yes
 29,No
 45,No
-NA,No
 49,No
 35,Yes
 57,No
@@ -1705,7 +1591,6 @@ NA,No
 49,No
 47,No
 35,Yes
-NA,No
 40,No
 50,No
 37,No
@@ -1726,7 +1611,6 @@ NA,No
 20,No
 19,Yes
 24,Yes
-NA,No
 20,No
 22,Yes
 21,No
@@ -1734,7 +1618,6 @@ NA,No
 35,No
 38,No
 27,No
-NA,No
 31,No
 25,No
 39,No
@@ -1767,7 +1650,6 @@ NA,No
 20,No
 35,No
 23,No
-NA,No
 38,Yes
 45,No
 45,No
@@ -1781,7 +1663,6 @@ NA,No
 32,No
 37,No
 45,No
-NA,No
 33,No
 48,No
 47,No
@@ -1809,7 +1690,6 @@ NA,No
 57,No
 32,No
 21,Yes
-NA,No
 22,No
 54,No
 26,No
@@ -1832,7 +1712,6 @@ NA,No
 46,No
 39,No
 42,No
-NA,No
 70,No
 49,Yes
 26,No
@@ -1843,8 +1722,6 @@ NA,No
 38,No
 24,No
 47,No
-NA,Yes
-NA,Yes
 52,Yes
 45,Yes
 16,No
@@ -1880,7 +1757,6 @@ NA,Yes
 43,No
 44,No
 40,No
-NA,No
 42,No
 45,No
 37,No
@@ -1950,7 +1826,6 @@ NA,No
 58,No
 56,No
 25,No
-NA,No
 19,No
 31,No
 29,No
@@ -1959,7 +1834,6 @@ NA,No
 56,No
 20,No
 31,No
-NA,No
 24,No
 36,No
 27,No
@@ -1972,7 +1846,6 @@ NA,No
 20,No
 28,No
 24,No
-NA,No
 35,No
 29,No
 29,No
@@ -2051,7 +1924,6 @@ NA,No
 34,No
 26,No
 34,No
-NA,No
 37,No
 29,No
 56,No
@@ -2071,7 +1943,6 @@ NA,No
 27,No
 31,No
 25,No
-NA,No
 23,No
 26,No
 26,No
@@ -2081,13 +1952,11 @@ NA,No
 33,No
 30,No
 28,No
-NA,No
 23,No
 41,No
 27,No
 23,No
 24,Yes
-NA,No
 48,No
 30,No
 52,No
@@ -2098,7 +1967,6 @@ NA,No
 19,No
 30,No
 30,No
-NA,Yes
 32,No
 25,No
 27,No
@@ -2108,7 +1976,6 @@ NA,Yes
 36,No
 22,No
 40,No
-NA,No
 31,No
 33,Yes
 36,No
@@ -2122,7 +1989,6 @@ NA,No
 33,No
 36,No
 28,No
-NA,No
 37,No
 34,No
 28,No
@@ -2133,7 +1999,6 @@ NA,No
 32,No
 31,No
 26,No
-NA,Yes
 42,No
 29,No
 16,Yes
@@ -2172,8 +2037,6 @@ NA,Yes
 29,No
 34,No
 45,No
-NA,No
-NA,No
 25,No
 45,No
 36,No
@@ -2196,7 +2059,6 @@ NA,No
 23,No
 44,No
 31,No
-NA,No
 29,No
 24,No
 19,No
@@ -2205,7 +2067,6 @@ NA,No
 31,No
 35,Yes
 41,No
-NA,No
 39,No
 20,No
 55,No
@@ -2232,7 +2093,6 @@ NA,No
 24,No
 63,No
 20,No
-NA,Yes
 26,No
 24,No
 34,No
@@ -2267,7 +2127,6 @@ NA,Yes
 30,No
 24,No
 20,No
-NA,No
 24,No
 29,No
 50,No
@@ -2383,18 +2242,14 @@ NA,No
 28,No
 51,No
 41,No
-NA,No
 44,No
 29,No
 39,No
 42,No
 33,No
-NA,No
 19,No
 21,No
 19,No
-NA,No
-NA,No
 33,No
 40,No
 28,No
@@ -2412,7 +2267,6 @@ NA,No
 26,No
 31,No
 30,Yes
-NA,No
 37,Yes
 12,Yes
 38,No
@@ -2434,7 +2288,6 @@ NA,No
 23,No
 41,No
 50,No
-NA,No
 29,No
 28,No
 31,Yes
@@ -2464,15 +2317,12 @@ NA,No
 34,Yes
 19,No
 31,No
-NA,No
 39,No
-NA,No
 58,No
 45,No
 63,No
 30,No
 22,No
-NA,No
 33,No
 42,No
 23,No
@@ -2492,16 +2342,13 @@ NA,No
 44,No
 69,No
 22,No
-NA,Yes
 49,No
-NA,No
 34,No
 13,Yes
 34,No
 52,No
 42,No
 28,Yes
-NA,No
 40,No
 21,No
 36,No
@@ -2514,7 +2361,6 @@ NA,No
 55,No
 31,No
 42,Yes
-NA,No
 30,No
 40,No
 37,No
@@ -2532,7 +2378,6 @@ NA,No
 62,No
 36,No
 34,No
-NA,No
 31,No
 35,No
 27,No
@@ -2576,9 +2421,7 @@ NA,No
 28,No
 25,No
 27,No
-NA,No
 34,No
-NA,No
 42,No
 48,No
 22,No
@@ -2604,12 +2447,10 @@ NA,No
 53,No
 57,No
 51,No
-NA,No
 42,No
 46,No
 17,Yes
 29,No
-NA,No
 35,No
 45,No
 25,No
@@ -2679,7 +2520,6 @@ NA,No
 49,No
 45,No
 27,No
-NA,No
 34,No
 52,No
 34,No
@@ -2710,7 +2550,6 @@ NA,No
 31,No
 29,No
 33,No
-NA,No
 39,No
 50,No
 43,No
@@ -2745,7 +2584,6 @@ NA,No
 38,No
 32,No
 32,No
-NA,No
 36,No
 46,No
 25,No
@@ -2781,7 +2619,6 @@ NA,No
 47,No
 46,No
 29,No
-NA,No
 35,No
 41,No
 30,Yes
@@ -2812,12 +2649,10 @@ NA,No
 21,No
 36,No
 30,No
-123,No
 46,No
 36,No
 41,No
 24,No
-NA,No
 43,Yes
 36,No
 38,No
@@ -2828,12 +2663,10 @@ NA,No
 26,No
 36,No
 30,No
-NA,No
 27,No
 17,Yes
 33,No
 52,No
-NA,No
 26,No
 36,No
 9,No
@@ -2850,13 +2683,11 @@ NA,No
 50,No
 33,No
 39,Yes
-NA,No
 40,No
 29,No
 28,No
 40,No
 44,No
-NA,No
 27,No
 26,No
 53,No
@@ -2877,7 +2708,6 @@ NA,No
 45,No
 39,No
 34,Yes
-NA,No
 34,No
 47,Yes
 41,No
@@ -2886,13 +2716,11 @@ NA,No
 37,No
 40,No
 48,No
-388,No
 38,No
 45,No
 39,No
 31,No
 57,No
-NA,No
 32,No
 33,No
 31,No
@@ -2900,7 +2728,6 @@ NA,No
 37,No
 44,No
 28,No
-NA,Yes
 24,No
 35,No
 44,No
@@ -2932,20 +2759,17 @@ NA,Yes
 28,No
 57,No
 48,Yes
-NA,No
 22,No
 30,No
 24,No
 57,No
 37,No
 24,No
-NA,No
 32,Yes
 50,No
 11,Yes
 25,No
 37,No
-NA,No
 28,No
 50,No
 56,No
@@ -2965,7 +2789,6 @@ NA,No
 50,No
 42,No
 27,No
-NA,Yes
 26,No
 38,No
 57,No
@@ -3011,7 +2834,6 @@ NA,Yes
 36,No
 23,No
 33,No
-NA,No
 41,No
 34,No
 44,No
@@ -3022,7 +2844,6 @@ NA,No
 32,No
 31,No
 25,No
-NA,No
 62,No
 18,No
 35,Yes
@@ -3033,8 +2854,6 @@ NA,No
 30,No
 45,No
 40,No
-NA,No
-NA,No
 41,No
 29,No
 44,No
@@ -3108,10 +2927,7 @@ NA,No
 67,No
 43,No
 66,No
-NA,No
-NA,No
 19,No
-NA,No
 35,No
 31,No
 40,No
@@ -3119,9 +2935,7 @@ NA,No
 54,No
 58,No
 28,No
-NA,No
 31,No
-NA,No
 21,No
 39,No
 54,No
@@ -3161,11 +2975,9 @@ NA,No
 43,No
 29,No
 47,No
-NA,No
 32,No
 56,No
 29,No
-NA,No
 27,Yes
 19,No
 30,No
@@ -3228,7 +3040,6 @@ NA,No
 30,No
 36,No
 58,No
-NA,Yes
 41,No
 38,No
 53,No
@@ -3254,13 +3065,11 @@ NA,Yes
 28,No
 38,No
 27,No
-NA,No
 36,No
 45,No
 27,No
 21,No
 24,No
-NA,No
 31,No
 29,No
 27,No
@@ -3277,7 +3086,6 @@ NA,No
 21,No
 32,No
 54,No
-NA,No
 29,No
 28,No
 55,No
@@ -3328,7 +3136,6 @@ NA,No
 36,Yes
 44,Yes
 30,No
-NA,Yes
 18,No
 35,No
 46,No
@@ -3336,7 +3143,6 @@ NA,Yes
 32,No
 18,No
 46,No
-Inf,Yes
 49,Yes
 32,Yes
 29,Yes
@@ -3345,7 +3151,6 @@ Inf,Yes
 29,No
 33,No
 28,No
-NA,No
 33,No
 43,No
 24,No
@@ -3354,7 +3159,6 @@ NA,No
 40,No
 49,No
 25,No
-NA,No
 62,No
 25,No
 33,Yes
@@ -3371,7 +3175,6 @@ NA,No
 27,No
 22,No
 27,No
-NA,No
 39,No
 44,No
 25,No
@@ -3382,14 +3185,12 @@ NA,No
 28,Yes
 27,No
 33,No
-NA,Yes
 40,No
 40,No
 44,No
 33,No
 69,No
 27,No
-NA,No
 28,No
 18,No
 26,No
@@ -3430,7 +3231,6 @@ NA,No
 54,No
 21,No
 65,No
-NA,No
 35,No
 44,No
 25,No
@@ -3439,7 +3239,6 @@ NA,No
 0.62,No
 30,No
 34,No
-NA,No
 37,No
 45,No
 39,No
@@ -3490,7 +3289,6 @@ NA,No
 35,No
 26,No
 41,No
-NA,No
 54,No
 25,No
 29,No
@@ -3502,7 +3300,6 @@ NA,No
 35,No
 42,No
 42,No
-350,No
 51,No
 33,No
 26,No
@@ -3532,7 +3329,6 @@ NA,No
 50,No
 34,No
 29,No
-NA,No
 33,No
 34,No
 36,No
@@ -3563,13 +3359,11 @@ NA,No
 34,Yes
 47,No
 28,No
-2000,No
 39,No
 25,No
 27,No
 32,No
 31,No
-NA,No
 26,No
 24,No
 29,No
@@ -3588,7 +3382,6 @@ NA,No
 26,No
 25,No
 21,No
-NA,No
 53,No
 34,No
 60,Yes
@@ -3596,7 +3389,6 @@ NA,No
 41,No
 33,No
 37,No
-NA,Yes
 45,Yes
 43,No
 34,No
@@ -3623,15 +3415,12 @@ NA,Yes
 24,No
 38,No
 26,No
-NA,No
-NA,Yes
 26,No
 37,No
 31,No
 45,No
 35,Yes
 36,No
-NA,No
 42,No
 36,No
 22,No
@@ -3645,7 +3434,6 @@ NA,No
 59,No
 32,No
 60,No
-NA,No
 60,No
 70,No
 33,No
@@ -3657,10 +3445,8 @@ NA,No
 28,No
 47,No
 18,Yes
-NA,No
 31,No
 26,No
-NA,No
 28,No
 45,No
 33,No
@@ -3688,7 +3474,6 @@ NA,No
 40,No
 25,No
 30,No
-NA,Yes
 47,No
 35,No
 25,No
@@ -3770,7 +3555,6 @@ NA,Yes
 39,Yes
 36,Yes
 17,Yes
-NA,No
 35,No
 26,No
 37,Yes
@@ -3816,8 +3600,6 @@ NA,No
 40,No
 21,No
 33,No
-NA,Yes
-NA,No
 30,No
 42,No
 31,No
@@ -3838,7 +3620,6 @@ NA,No
 22,No
 32,No
 33,No
-NA,No
 30,No
 37,No
 31,No
@@ -3853,7 +3634,6 @@ NA,No
 32,No
 32,No
 45,No
-NA,No
 34,No
 26,No
 41,No
@@ -3904,7 +3684,6 @@ NA,No
 33,No
 20,No
 36,No
-NA,No
 32,No
 62,No
 46,No
@@ -3971,7 +3750,6 @@ NA,No
 27,No
 27,No
 35,No
-NA,No
 26,No
 32,No
 57,No
@@ -4031,9 +3809,7 @@ NA,No
 31,No
 34,No
 40,No
-NA,No
 44,No
-NA,No
 39,No
 29,No
 29,No
@@ -4041,7 +3817,6 @@ NA,No
 29,No
 34,No
 36,Yes
-NA,No
 51,No
 25,No
 36,Yes
@@ -4079,7 +3854,6 @@ NA,No
 32,Yes
 33,No
 14,Yes
-NA,No
 22,No
 39,No
 36,No
@@ -4106,7 +3880,6 @@ NA,No
 27,No
 31,No
 19,No
-NA,No
 27,No
 29,No
 56,No
@@ -4127,7 +3900,6 @@ NA,No
 44,No
 34,No
 35,No
-NA,No
 45,No
 30,No
 47,No
@@ -4176,9 +3948,7 @@ NA,No
 51,No
 36,No
 39,No
-NA,No
 46,No
-NA,No
 30,No
 30,No
 53,No
@@ -4211,7 +3981,6 @@ NA,No
 30,No
 27,No
 27,No
-350,No
 15,No
 34,No
 28,No
@@ -4223,7 +3992,6 @@ NA,No
 49,No
 36,No
 28,No
-400,No
 85,No
 26,No
 27,No
@@ -4234,7 +4002,6 @@ NA,No
 34,No
 36,No
 36,No
-NA,No
 20,No
 47,No
 41,No
@@ -4268,7 +4035,6 @@ NA,No
 22,Yes
 28,No
 33,No
-NA,Yes
 34,No
 32,No
 33,No
@@ -4281,7 +4047,6 @@ NA,Yes
 45,No
 31,No
 41,No
-NA,No
 27,Yes
 46,No
 42,No
@@ -4310,12 +4075,10 @@ NA,No
 42,No
 45,No
 55,No
-NA,No
 12,Yes
 34,No
 31,No
 30,No
-NA,No
 29,No
 40,No
 36,No
@@ -4359,7 +4122,6 @@ NA,No
 35,No
 22,No
 28,No
-NA,No
 39,No
 33,No
 26,No
@@ -4371,7 +4133,6 @@ NA,No
 49,No
 38,No
 47,Yes
-NA,No
 31,No
 38,No
 29,No
@@ -4443,7 +4204,6 @@ NA,No
 31,No
 36,Yes
 62,No
-NA,No
 31,No
 45,No
 28,No
@@ -4525,7 +4285,6 @@ NA,No
 31,No
 36,No
 33,No
-NA,No
 45,No
 34,No
 29,No
@@ -4542,7 +4301,6 @@ NA,No
 46,No
 27,No
 36,No
-NA,No
 50,No
 31,No
 36,No
@@ -4614,7 +4372,6 @@ NA,No
 42,No
 40,No
 45,No
-NA,No
 27,No
 23,No
 25,No
@@ -4623,7 +4380,6 @@ NA,No
 36,No
 36,No
 32,No
-NA,Yes
 21,Yes
 28,No
 24,No
@@ -4640,7 +4396,6 @@ NA,Yes
 44,No
 29,No
 26,No
-NA,No
 34,No
 27,No
 27,No
@@ -4674,7 +4429,6 @@ NA,No
 43,No
 34,No
 31,No
-NA,Yes
 28,No
 35,No
 32,No
@@ -4699,7 +4453,6 @@ NA,Yes
 28,No
 54,No
 31,No
-NA,No
 28,No
 43,No
 29,Yes
@@ -4719,7 +4472,6 @@ NA,No
 43,No
 44,No
 32,No
-NA,No
 38,No
 50,No
 34,No
@@ -4760,7 +4512,6 @@ NA,No
 26,No
 26,No
 35,No
-NA,No
 21,No
 53,No
 40,No
@@ -4796,11 +4547,9 @@ NA,No
 51,No
 35,No
 34,No
-NA,Yes
 30,No
 43,No
 41,No
-NA,No
 31,No
 26,No
 41,No
@@ -4828,7 +4577,6 @@ NA,No
 37,No
 37,No
 24,No
-NA,No
 31,No
 36,No
 31,No
@@ -4883,7 +4631,6 @@ NA,No
 22,No
 31,No
 47,No
-NA,No
 32,No
 54,No
 38,No
@@ -4903,7 +4650,6 @@ NA,No
 37,No
 27,No
 49,No
-NA,No
 33,No
 31,No
 35,No
@@ -4922,7 +4668,6 @@ NA,No
 42,Yes
 22,No
 33,No
-NA,No
 46,No
 33,No
 27,No
@@ -4932,7 +4677,6 @@ NA,No
 38,No
 26,No
 31,Yes
-NA,No
 25,No
 31,No
 39,Yes
@@ -4949,7 +4693,6 @@ NA,No
 29,No
 33,No
 34,No
-NA,No
 63,No
 31,No
 59,No
@@ -4970,7 +4713,6 @@ NA,No
 23,No
 40,No
 30,No
-NA,No
 37,No
 27,Yes
 25,No
@@ -5011,7 +4753,6 @@ NA,No
 58,No
 28,No
 23,No
-NA,No
 21,No
 32,No
 33,No
@@ -5054,7 +4795,6 @@ NA,No
 44,No
 45,No
 25,No
-NA,No
 27,No
 32,No
 45,Yes
@@ -5062,10 +4802,8 @@ NA,No
 28,No
 22,No
 35,Yes
-NA,No
 23,No
 28,No
-NA,No
 35,No
 34,No
 33,No
@@ -5085,7 +4823,6 @@ NA,No
 35,No
 39,No
 23,No
-NA,No
 30,Yes
 33,No
 32,No
@@ -5096,7 +4833,6 @@ NA,No
 47,No
 20,No
 58,No
-NA,No
 24,No
 35,No
 31,No
@@ -5148,15 +4884,11 @@ NA,No
 33,No
 40,No
 25,No
-NA,No
 42,No
-NA,No
 26,No
 55,No
 97,No
-NA,Yes
 67,No
-NA,No
 44,No
 47,No
 34,No
@@ -5192,7 +4924,6 @@ NA,No
 67,No
 21,No
 57,No
-NA,No
 28,No
 36,No
 32,No
@@ -5227,7 +4958,6 @@ NA,No
 19,No
 32,No
 31,No
-NA,No
 47,No
 43,No
 39,No
@@ -5251,17 +4981,14 @@ NA,No
 36,No
 26,No
 30,No
-NA,No
 50,No
 32,No
 17,Yes
 38,No
-NA,No
 15,No
 30,No
 37,No
 27,No
-490,No
 30,No
 31,Yes
 35,Yes
@@ -5299,18 +5026,15 @@ NA,No
 29,No
 48,No
 62,No
-NA,No
 35,No
 32,No
 31,No
-NA,No
 32,No
 48,No
 35,No
 29,No
 53,No
 44,No
-NA,Yes
 34,No
 42,No
 51,No
@@ -5318,8 +5042,6 @@ NA,Yes
 58,No
 47,No
 25,Yes
-NA,No
-NA,No
 13,Yes
 24,No
 30,No
@@ -5334,20 +5056,16 @@ NA,No
 31,No
 51,No
 24,No
-NA,No
 24,No
 26,No
 32,No
 24,No
-NA,No
 21,No
 31,No
-NA,No
 35,Yes
 48,No
 28,No
 26,No
-NA,No
 41,No
 17,No
 18,No
@@ -5405,7 +5123,6 @@ NA,No
 47,No
 36,No
 39,Yes
-NA,No
 53,No
 51,No
 42,No
@@ -5435,7 +5152,6 @@ NA,No
 57,No
 37,No
 64,No
-NA,No
 38,No
 36,No
 48,No
@@ -5446,18 +5162,15 @@ NA,No
 15,No
 23,No
 39,No
-NA,No
 25,No
 26,No
 54,No
 23,No
 36,No
-NA,No
 43,No
 44,No
 57,No
 46,No
-NA,Yes
 25,No
 51,No
 38,No
@@ -5522,7 +5235,6 @@ NA,Yes
 49,No
 60,No
 45,No
-NA,No
 28,No
 24,No
 29,No
@@ -5574,10 +5286,8 @@ NA,No
 26,Yes
 52,No
 33,No
-NA,No
 39,Yes
 52,No
-NA,Yes
 51,No
 30,No
 45,No
@@ -5585,7 +5295,6 @@ NA,Yes
 24,No
 25,No
 44,No
-NA,No
 33,No
 40,No
 53,No
@@ -5598,7 +5307,6 @@ NA,No
 32,No
 61,No
 36,No
-NA,No
 30,No
 58,No
 28,No
@@ -5614,7 +5322,6 @@ NA,No
 38,No
 49,No
 53,No
-NA,No
 39,No
 55,No
 36,No
@@ -5622,7 +5329,6 @@ NA,No
 30,No
 50,No
 50,No
-NA,No
 40,No
 50,No
 43,No
@@ -5686,7 +5392,6 @@ NA,No
 32,Yes
 47,Yes
 42,No
-NA,No
 49,No
 32,No
 35,No
@@ -5728,12 +5433,8 @@ NA,No
 49,No
 50,No
 43,No
-NA,Yes
-NA,No
 58,No
-NA,No
 48,No
-NA,No
 46,No
 55,No
 44,No
@@ -5745,14 +5446,12 @@ NA,No
 41,No
 32,No
 43,No
-NA,No
 10,Yes
 58,No
 31,No
 29,No
 36,No
 62,No
-NA,No
 51,No
 60,No
 33,No
@@ -5894,7 +5593,6 @@ NA,No
 47,No
 58,No
 35,No
-NA,No
 32,No
 34,No
 41,No
@@ -5931,7 +5629,6 @@ NA,No
 50,No
 64,No
 37,No
-NA,No
 58,No
 46,No
 36,Yes
@@ -5939,12 +5636,10 @@ NA,No
 41,No
 37,No
 43,Yes
-NA,No
 52,No
 38,Yes
 26,No
 52,No
-NA,Yes
 37,No
 22,No
 59,No
@@ -5980,11 +5675,9 @@ NA,Yes
 60,No
 43,Yes
 63,No
-NA,No
 44,No
 39,No
 56,No
-NA,No
 40,No
 23,No
 42,No
@@ -5992,7 +5685,6 @@ NA,No
 30,No
 34,No
 49,No
-NA,No
 31,No
 36,No
 66,No
@@ -6003,7 +5695,6 @@ NA,No
 50,No
 58,No
 49,No
-NA,No
 40,No
 47,No
 46,No
@@ -6044,7 +5735,6 @@ NA,No
 17,No
 49,No
 49,No
-NA,No
 25,No
 45,No
 42,Yes
@@ -6052,7 +5742,6 @@ NA,No
 19,No
 38,No
 31,Yes
-NA,No
 39,No
 32,No
 36,No
@@ -6073,7 +5762,6 @@ NA,No
 45,No
 47,No
 43,No
-NA,Yes
 39,No
 39,No
 37,No
@@ -6087,7 +5775,6 @@ NA,Yes
 43,No
 55,No
 35,No
-NA,No
 47,No
 32,No
 50,Yes
@@ -6107,7 +5794,6 @@ NA,No
 53,No
 57,No
 28,No
-NA,No
 37,Yes
 40,No
 50,Yes
@@ -6124,7 +5810,6 @@ NA,No
 29,No
 54,No
 31,No
-NA,No
 49,No
 48,No
 60,No
@@ -6141,19 +5826,15 @@ NA,No
 34,No
 46,No
 42,Yes
-NA,No
 28,No
 38,No
 60,No
-NA,No
 47,No
 48,No
 40,No
 35,No
 47,No
-NA,No
 39,No
-NA,No
 45,No
 32,No
 48,No
@@ -6188,7 +5869,6 @@ NA,No
 38,No
 47,No
 36,No
-NA,No
 45,No
 45,No
 37,No
@@ -6207,7 +5887,6 @@ NA,No
 50,No
 25,No
 40,Yes
-NA,No
 44,No
 50,No
 46,No
@@ -6229,8 +5908,6 @@ NA,No
 39,No
 42,No
 35,Yes
-NA,No
-NA,Yes
 45,No
 48,No
 38,No
@@ -6241,17 +5918,13 @@ NA,Yes
 60,No
 39,No
 31,No
-1e18,Yes
 33,No
 64,No
 46,No
 32,No
 22,No
-NA,No
 39,No
 42,No
-NA,No
-NA,No
 45,No
 43,Yes
 29,No
@@ -6260,22 +5933,18 @@ NA,No
 35,No
 18,No
 23,No
-NA,No
 41,No
 19,No
 35,No
 33,No
-NA,No
 42,No
 48,No
 38,No
 32,No
-NA,No
 51,Yes
 53,No
 52,No
 40,Yes
-NA,No
 44,No
 36,No
 54,No
@@ -6292,7 +5961,6 @@ NA,No
 28,No
 10,No
 16,No
-NA,No
 34,No
 52,No
 54,No
@@ -6320,7 +5988,6 @@ NA,No
 31,No
 46,No
 54,No
-NA,No
 46,No
 28,No
 59,No
@@ -6332,10 +5999,8 @@ NA,No
 34,No
 42,No
 49,No
-NA,No
 48,No
 24,Yes
-NA,No
 34,Yes
 39,Yes
 39,No
@@ -6378,7 +6043,6 @@ NA,No
 40,No
 52,No
 42,No
-NA,No
 44,No
 45,No
 44,No
@@ -6429,7 +6093,6 @@ NA,No
 37,Yes
 32,No
 36,Yes
-NA,No
 49,No
 38,No
 28,No
@@ -6457,7 +6120,6 @@ NA,No
 42,No
 26,No
 35,No
-NA,Yes
 36,No
 30,No
 52,No
@@ -6471,7 +6133,6 @@ NA,Yes
 46,No
 47,No
 41,No
-NA,No
 30,No
 39,No
 26,No
@@ -6497,7 +6158,6 @@ NA,No
 49,No
 32,No
 39,No
-NA,No
 20,No
 33,No
 59,No
@@ -6562,7 +6222,6 @@ NA,No
 28,No
 43,No
 41,No
-NA,Yes
 56,No
 32,No
 41,No
@@ -6573,7 +6232,6 @@ NA,Yes
 29,No
 52,Yes
 37,No
-NA,No
 58,No
 51,No
 34,No
@@ -6590,8 +6248,6 @@ NA,No
 34,No
 34,No
 42,No
-NA,No
-NA,Yes
 33,No
 38,No
 42,No
@@ -6616,7 +6272,6 @@ NA,Yes
 35,No
 48,No
 36,No
-NA,No
 40,No
 31,No
 59,No
@@ -6634,10 +6289,8 @@ NA,No
 29,No
 36,No
 26,No
-NA,No
 47,No
 43,No
-NA,No
 30,No
 33,No
 26,No
@@ -6660,8 +6313,6 @@ NA,No
 38,No
 55,No
 47,No
-NA,No
-NA,No
 43,No
 41,No
 34,No
@@ -6700,7 +6351,6 @@ NA,No
 54,No
 63,No
 48,No
-NA,No
 50,No
 36,No
 52,No
@@ -6709,7 +6359,6 @@ NA,No
 55,No
 45,No
 37,No
-NA,No
 33,No
 50,Yes
 38,Yes
@@ -6729,7 +6378,6 @@ NA,No
 33,No
 56,No
 40,No
-NA,No
 42,No
 43,No
 43,No
@@ -6741,7 +6389,6 @@ NA,No
 30,No
 28,No
 61,No
-NA,No
 50,No
 27,No
 28,No
@@ -6766,7 +6413,6 @@ NA,No
 59,No
 35,No
 39,No
-NA,No
 39,No
 29,No
 53,No
@@ -6785,7 +6431,6 @@ NA,No
 60,No
 55,No
 53,No
-NA,No
 43,No
 37,No
 33,No
@@ -6796,7 +6441,6 @@ NA,No
 51,No
 40,No
 53,No
-NA,No
 27,No
 59,Yes
 46,No
@@ -6818,15 +6462,11 @@ NA,No
 32,No
 41,No
 45,No
-NA,No
 46,No
 26,No
-NA,No
-142,No
 7,Yes
 30,No
 36,No
-NA,No
 41,No
 38,No
 35,Yes
@@ -6855,7 +6495,6 @@ NA,No
 29,No
 34,No
 39,No
-NA,No
 24,No
 38,No
 31,No
@@ -6874,7 +6513,6 @@ NA,No
 46,No
 45,Yes
 45,No
-NA,No
 31,No
 31,No
 27,No
@@ -6885,15 +6523,12 @@ NA,No
 54,No
 52,No
 33,No
-NA,No
 48,No
 44,Yes
-NA,NA
 44,No
 49,NA
 40,No
 23,No
-NA,No
 53,No
 33,No
 40,No
@@ -6924,7 +6559,6 @@ NA,No
 33,No
 47,No
 16,No
-NA,NA
 52,No
 33,No
 63,No
@@ -6988,7 +6622,6 @@ NA,NA
 42,No
 35,No
 44,No
-NA,NA
 44,Yes
 42,No
 43,No
@@ -7002,14 +6635,12 @@ NA,NA
 25,Yes
 29,No
 53,No
-NA,No
 22,No
 50,No
 44,No
 46,No
 26,No
 53,Yes
-NA,No
 41,No
 62,No
 48,No
@@ -7037,7 +6668,6 @@ NA,No
 45,No
 38,No
 37,No
-NA,Yes
 33,No
 43,No
 36,No
@@ -7075,9 +6705,7 @@ NA,Yes
 49,No
 45,No
 34,Yes
-NA,NA
 38,Yes
-NA,No
 37,No
 40,No
 46,No
@@ -7091,7 +6719,6 @@ NA,No
 19,Yes
 39,No
 47,NA
-NA,No
 31,No
 48,Yes
 57,No
@@ -7135,7 +6762,6 @@ NA,No
 44,No
 52,No
 51,No
-NA,No
 52,No
 37,No
 57,No
@@ -7213,7 +6839,6 @@ NA,No
 60,No
 41,No
 27,No
-NA,No
 39,No
 42,No
 40,No
@@ -7235,12 +6860,9 @@ NA,No
 31,No
 57,No
 36,No
-NA,No
 57,No
 25,No
-NA,No
 27,No
-NA,No
 38,No
 49,No
 34,NA
@@ -7293,7 +6915,6 @@ NA,No
 48,Yes
 37,No
 46,No
-NA,No
 53,Yes
 52,No
 39,No
@@ -7349,12 +6970,10 @@ NA,No
 46,No
 34,No
 42,No
-NA,No
 48,No
 27,NA
 43,Yes
 45,Yes
-NA,No
 31,No
 60,No
 54,No
@@ -7380,7 +6999,6 @@ NA,No
 49,Yes
 40,No
 40,Yes
-NA,No
 34,No
 36,No
 41,Yes
@@ -7394,7 +7012,6 @@ NA,No
 45,No
 70,NA
 35,No
-312,No
 58,No
 42,Yes
 54,No
@@ -7415,7 +7032,6 @@ NA,No
 44,No
 34,No
 35,Yes
-NA,No
 35,Yes
 48,No
 52,No
@@ -7434,7 +7050,6 @@ NA,No
 72,No
 34,No
 48,No
-NA,NA
 56,No
 45,No
 56,No
@@ -7450,11 +7065,8 @@ NA,NA
 47,No
 40,No
 39,No
-NA,No
 58,No
-NA,Yes
 45,Yes
-NA,No
 57,No
 33,No
 32,No
@@ -7489,7 +7101,6 @@ NA,No
 44,NA
 55,No
 66,No
-NA,No
 39,No
 36,NA
 39,No
@@ -7526,13 +7137,11 @@ NA,No
 62,No
 55,No
 47,No
-NA,Yes
 35,Yes
 50,No
 42,No
 57,No
 47,No
-NA,NA
 71,Yes
 44,Yes
 43,No
@@ -7544,7 +7153,6 @@ NA,NA
 41,No
 49,No
 41,No
-NA,No
 44,No
 48,Yes
 32,No
@@ -7581,29 +7189,24 @@ NA,No
 37,No
 31,No
 58,No
-NA,NA
 43,No
 50,No
 52,No
-NA,No
 62,No
 39,No
 13,Yes
 45,No
 51,No
 52,No
-NA,NA
 9,Yes
 50,No
 28,No
-NA,Yes
 59,No
 12,Yes
 67,No
 51,No
 37,Yes
 57,No
-NA,No
 50,No
 33,Yes
 35,No
@@ -7622,11 +7225,8 @@ NA,No
 46,No
 34,No
 39,No
-NA,NA
-NA,Yes
 45,No
 39,No
-NA,No
 50,No
 22,No
 37,No
@@ -7647,15 +7247,12 @@ NA,No
 52,No
 62,No
 53,No
-NA,No
-NA,No
 40,Yes
 40,No
 41,Yes
 35,No
 71,No
 60,No
-NA,No
 52,No
 39.4,No
 50,No
@@ -7671,9 +7268,7 @@ NA,No
 30,Yes
 74,No
 46,No
-NA,No
 46,No
-NA,No
 36,Yes
 22,No
 19,No
@@ -7726,14 +7321,12 @@ NA,No
 38,No
 32,No
 33,No
-NA,NA
 59,No
 36,No
 10,Yes
 37,No
 30,No
 32,No
-NA,No
 42,No
 34,No
 37,No
@@ -7743,7 +7336,6 @@ NA,No
 41,No
 47,No
 45,No
-NA,Yes
 53,No
 60,No
 63,No
@@ -7757,7 +7349,6 @@ NA,Yes
 44,No
 45,No
 51,No
-NA,No
 25,NA
 29,No
 41,Yes
@@ -7790,9 +7381,7 @@ NA,No
 35,No
 36,No
 53,No
-NA,No
 57,No
-NA,No
 17,No
 30,No
 27,No
@@ -7819,7 +7408,6 @@ NA,No
 35,No
 56,No
 31,No
-NA,NA
 52,No
 50,No
 12,No
@@ -7884,7 +7472,6 @@ NA,NA
 47,No
 37,No
 53,Yes
-NA,Yes
 36,Yes
 59,No
 37,No
@@ -7892,7 +7479,6 @@ NA,Yes
 61,No
 54,No
 50,No
-NA,NA
 44,No
 34,Yes
 56,No
@@ -7902,7 +7488,6 @@ NA,NA
 52,No
 40,Yes
 37,No
-NA,No
 29,Yes
 45,No
 45,No
@@ -7964,7 +7549,6 @@ NA,No
 58,No
 68,No
 43,No
-NA,NA
 51,No
 50,No
 54,No
@@ -7983,9 +7567,7 @@ NA,NA
 53,No
 52,No
 61,No
-NA,NA
 47,NA
-NA,No
 51,No
 27,No
 31,No
@@ -8034,7 +7616,6 @@ NA,No
 30,No
 41,No
 50,No
-NA,No
 34,No
 52,No
 42,Yes
@@ -8049,7 +7630,6 @@ NA,No
 24,No
 37,No
 58,No
-NA,No
 30,NA
 30,No
 36,Yes
@@ -8081,7 +7661,6 @@ NA,No
 40,No
 33,Yes
 17,No
-NA,No
 49,No
 31,No
 27,No
@@ -8118,7 +7697,6 @@ NA,No
 35,No
 63,No
 53,No
-NA,No
 61,No
 25,No
 43,No
@@ -8144,7 +7722,6 @@ NA,No
 32,No
 58,No
 56,No
-NA,No
 36,No
 41,Yes
 34,No
@@ -8161,7 +7738,6 @@ NA,No
 38,Yes
 46,No
 39,No
-NA,NA
 44,No
 38,No
 36,No
@@ -8183,7 +7759,6 @@ NA,NA
 38,Yes
 54,No
 60,No
-NA,NA
 23,NA
 34,No
 47,No
@@ -8219,21 +7794,18 @@ NA,NA
 50,No
 28,No
 42,No
-NA,Yes
 38,No
 31,No
 52,No
 29,No
 33,No
 45,NA
-NA,No
 38,No
 45,No
 57,NA
 52,No
 46,No
 46,No
-NA,NA
 36,No
 48,No
 47,No
@@ -8243,7 +7815,6 @@ NA,NA
 34,No
 62,No
 35,No
-NA,No
 60,No
 37,No
 49,No
@@ -8276,10 +7847,8 @@ NA,No
 43,Yes
 14,Yes
 43,NA
-NA,No
 57,No
 51,Yes
-NA,No
 43,No
 47,NA
 35,No
@@ -8340,7 +7909,6 @@ NA,No
 61,Yes
 43,No
 32,No
-NA,No
 38,No
 59,No
 26,No
@@ -8375,7 +7943,6 @@ NA,No
 29,No
 53,No
 45,No
-NA,No
 76,No
 47,No
 6,Yes
@@ -8390,7 +7957,6 @@ NA,No
 34,No
 33,No
 48,No
-1000,Yes
 35,No
 32,No
 35,No
@@ -8398,7 +7964,6 @@ NA,No
 36,No
 61,No
 36,Yes
-NA,NA
 59,No
 33,Yes
 47,No
@@ -8438,18 +8003,14 @@ NA,NA
 30,No
 53,No
 32,No
-NA,No
-NA,No
 63,No
 39,No
 47,No
 64,Yes
-NA,No
 71,No
 34,No
 34,No
 27,No
-NA,No
 57,No
 47,No
 44,No
@@ -8487,7 +8048,6 @@ NA,No
 44,No
 30,No
 33,No
-NA,NA
 51,No
 35,No
 54,No
@@ -8497,7 +8057,6 @@ NA,NA
 47,No
 42,No
 47,Yes
-NA,No
 42,No
 42,Yes
 36,No
@@ -8515,7 +8074,6 @@ NA,No
 39,Yes
 46,No
 36,No
-NA,No
 30,Yes
 34,No
 33,No
@@ -8538,7 +8096,6 @@ NA,No
 38,No
 64,No
 21,No
-NA,No
 41,Yes
 15,No
 33,No
@@ -8594,7 +8151,6 @@ NA,No
 48,No
 30,No
 34,No
-NA,NA
 38,No
 17,No
 15,Yes
@@ -8686,7 +8242,6 @@ NA,NA
 33,Yes
 18,Yes
 42,No
-NA,No
 46,Yes
 37,No
 34,No
@@ -8700,7 +8255,6 @@ NA,No
 54,No
 39,No
 32,Yes
-NA,No
 46,Yes
 46,Yes
 27,Yes
@@ -8733,7 +8287,6 @@ NA,No
 56,No
 32,No
 32,No
-NA,No
 62,No
 46,No
 27,No
@@ -8758,7 +8311,6 @@ NA,No
 29,No
 16,No
 45,No
-NA,No
 50,NA
 40,No
 68,Yes
@@ -8780,22 +8332,18 @@ NA,No
 53,No
 39,Yes
 22,No
-NA,No
 62,No
 30,No
-NA,NA
 18,Yes
 27,Yes
 56,No
 41,No
-NA,No
 53,No
 48,No
 41,No
 49,No
 29,No
 26,No
-NA,No
 27,No
 40,No
 45,No
@@ -8816,7 +8364,6 @@ NA,No
 45,Yes
 33,No
 25,No
-NA,No
 36,No
 50,No
 71,No
@@ -8860,12 +8407,10 @@ NA,No
 53,No
 42,No
 38,Yes
-NA,NA
 35,Yes
 35,No
 37,Yes
 47,No
-NA,Yes
 34,No
 64,No
 32,No
@@ -8936,7 +8481,6 @@ NA,Yes
 47,No
 39,No
 29,No
-NA,NA
 51,No
 40,No
 44,No
@@ -8998,7 +8542,6 @@ NA,NA
 49,No
 50,No
 55,No
-NA,No
 56,No
 34,No
 29,No
@@ -9067,7 +8610,6 @@ NA,No
 44,Yes
 46,No
 29,No
-NA,No
 27,Yes
 47,NA
 35,No
@@ -9102,7 +8644,6 @@ NA,No
 27,No
 1,Yes
 43,No
-NA,Yes
 47,No
 15,Yes
 27,No
@@ -9127,7 +8668,6 @@ NA,Yes
 35,No
 47,No
 36,No
-NA,No
 49,No
 48,No
 39,No
@@ -9199,12 +8739,10 @@ NA,No
 40,No
 31,No
 44,No
-NA,No
 73,No
 42,No
 30,No
 36,No
-NA,NA
 40,No
 41,No
 49,No
@@ -9235,24 +8773,20 @@ NA,NA
 35,No
 50,No
 24,Yes
-NA,No
 26,Yes
 47,No
 43,No
 36,Yes
-NA,NA
 31,No
 57,No
 45,No
 39,NA
 36,No
-NA,No
 59,No
 50,No
 48,NA
 26,No
 30,No
-NA,No
 32,No
 27,No
 30,No
@@ -9265,9 +8799,7 @@ NA,No
 43,No
 42,Yes
 41,Yes
-NA,Yes
 37,No
-NA,No
 43,Yes
 37,No
 56,No
@@ -9301,7 +8833,6 @@ NA,No
 51,No
 33,No
 63,No
-NA,Yes
 11,Yes
 38,No
 42,No
@@ -9319,7 +8850,6 @@ NA,Yes
 34,Yes
 46,No
 46,No
-NA,NA
 52,Yes
 68,Yes
 39,No
@@ -9328,7 +8858,6 @@ NA,NA
 25,No
 48,No
 27,No
-NA,NA
 42,No
 26,No
 39,No
@@ -9337,8 +8866,6 @@ NA,NA
 67,NA
 27,No
 43,No
-NA,No
-NA,No
 25,No
 43,No
 40,No

@@ -119,6 +119,7 @@ candy_cleaned <- candy_names_cleaned %>%
   mutate(country = str_replace(country, "CAN.*", "CANADA")) %>%
   mutate(country = str_replace(country, "A TROPICAL.*", "NOT AVAILABLE")) %>%
   mutate(country = str_replace(country, "[0-9].*", "NOT AVAILABLE")) %>%
+  mutate(country = str_replace(country, ".*ENGLAND.*", "UK")) %>%
   mutate(country = recode(country, "USSA" = "USA",
                           "US OF A"       = "USA",
                           "US"            = "USA",
@@ -145,7 +146,7 @@ candy_cleaned <- candy_names_cleaned %>%
                           "MURRIKA"       = "USA",
                           "MURICA"        = "USA",
                           "MERICA"        = "USA",
-                          #Moving "KOREA" to "SOUTH KOREA", as it is 
+                          #ASSUMPTION: Moving "KOREA" to "SOUTH KOREA", as it is 
                           #unlikely that citizens of North Korea would 
                           #have been able to participate
                           "KOREA"         = "SOUTH KOREA",
@@ -156,7 +157,7 @@ candy_cleaned <- candy_names_cleaned %>%
                           "EUROPE"        = "NOT AVAILABLE",
                           "EUA"           = "USA",
                           "ESPAÑA"        = "SPAIN",
-                          "ENDLAND"       = "ENGLAND",
+                          "ENDLAND"       = "UK",
                           "EARTH"         = "NOT AVAILABLE",
                           "DENIAL"        = "NOT AVAILABLE",
                           "CALIFORNIA"    = "USA",
@@ -165,7 +166,12 @@ candy_cleaned <- candy_names_cleaned %>%
                           "ALASKA"        = "USA",
                           "AHEM....AMERCA" = "USA",
                           "A"             = "NOT AVAILABLE",
-                          "'MERICA"       = "USA"))
+                          "'MERICA"       = "USA",
+                          #merging England and Scotland to UK. Only other
+                          #option would be to mark "UK" as "NOT AVAILABLE"
+                          "SCOTLAND"      = "UK",
+                          "ENGLAND"       = "UK"
+                          ))
   
 sort(unique(candy_cleaned$country))  
 
@@ -209,11 +215,19 @@ clean_2017_going <- raw_2017 %>%
   select("age", "going") %>%
   mutate(age     = as.numeric(age))
 
-#combine and export - will do analysis of outliers and NA's as part of 
-#answers in analysis markdown file:
+#combine and clean:
 
 going_total <- clean_2015_going %>%
   bind_rows(clean_2016_going) %>%
-  bind_rows(clean_2017_going)
+  bind_rows(clean_2017_going) %>%
+  #dropping NA's, as imputing them to the mean would artificially skew
+  #the results towards the center.
+  drop_na(age) %>%
+  #removing all ages over 122, as the oldest person whose age has been
+  #verified lived to be 122.
+  filter(age <= 122)
+
+
+
 
 write_csv(going_total, "clean_data/going_total.csv")
