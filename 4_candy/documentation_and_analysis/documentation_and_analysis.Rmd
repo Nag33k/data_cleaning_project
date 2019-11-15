@@ -10,16 +10,17 @@ knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 library(here)
 library(knitr)
+source(here::here("data_cleaning_scripts/data_cleaning_script.R"))
 ```
 
-Assumptions made during data cleaning:  
+### Assumptions made during data cleaning:  
 
 * That the 2017 question "Q1 Going Out" is the same as the previous years' questions about whether or not the individual is going trick-or-treating
 * That NA's in the ratings could be dropped. I considered imputing them to "Meh," but I do not think that would be appropriate as it would artificially inflate the number of "Meh" responses.
 * That the country "Korea" could be imputed to "South Korea," as it is unlikely (though not impossible) that citizens of North Korea would have been able to complete the survey.
 * All NA values for the ages of trick-or-treaters have been removed. Another option would have been to impute them to the mean value, but this would artificially skew the average results towards the mean.
 * The ages of trick-or-treaters has been capped at 122, as the oldest living person ever independently verified lived to be 122 per the google search below.
-* NOTE TO SELF: COME BACK TO THE AGES. It would be better to impute all NA's and invalid entries to average age - what if all the NA ages put "yes"?
+
 
 <center>
 ![](oldest_person.png) 
@@ -50,3 +51,19 @@ not_going <- going_total %>%
 
 The average age of people who are going out trick or treating is `r round(mean(going$age), digits = 2)` years old, and the average age of people who are not going out trick or treating is `r round(mean(not_going$age), digits = 2)` years old.
 
+### Question 3: For each of joy, despair and meh, which candy bar revived the most of these ratings?
+
+```{r}
+
+```
+
+### Question 4: How many people rated Starburst as despair?
+
+```{r}
+#filter by candy type and rating, then count occurrences
+star_desp <- candy_cleaned %>%
+  filter(candy_type == "starburst") %>%
+  filter(rating == "DESPAIR")
+```
+
+Answer: The total number of people who rated Starburst as despair is `r count(star_desp)`

@@ -369,7 +369,8 @@ summary {
 </div>
 
 
-<p>Assumptions made during data cleaning:</p>
+<div id="assumptions-made-during-data-cleaning" class="section level3">
+<h3>Assumptions made during data cleaning:</h3>
 <ul>
 <li>That the 2017 question “Q1 Going Out” is the same as the previous years’ questions about whether or not the individual is going trick-or-treating</li>
 <li>That NA’s in the ratings could be dropped. I considered imputing them to “Meh,” but I do not think that would be appropriate as it would artificially inflate the number of “Meh” responses.</li>
@@ -383,6 +384,7 @@ summary {
 <p>First things first: load in all data</p>
 <pre class="r"><code>candy_cleaned &lt;- read_csv(here::here(&quot;clean_data/candy_cleaned.csv&quot;))
 going_total &lt;- read_csv(here::here(&quot;clean_data/going_total.csv&quot;))</code></pre>
+</div>
 <div id="question-1-what-is-the-total-number-of-candy-ratings-given-across-the-three-years.-number-of-candy-ratings-not-number-of-raters.-dont-count-missing-values" class="section level3">
 <h3>Question 1: What is the total number of candy ratings given across the three years. (number of candy ratings, not number of raters. Don’t count missing values)</h3>
 <p>Answer: NA’s have already been removed and our tibble is in long-form based on ratings, so we can just count the number of items. The total number of candy ratings given across the three years is 772352</p>
@@ -396,6 +398,17 @@ going &lt;- going_total %&gt;%
 not_going &lt;- going_total %&gt;%
   filter(going == &quot;No&quot;)</code></pre>
 <p>The average age of people who are going out trick or treating is 35.11 years old, and the average age of people who are not going out trick or treating is 39.16 years old.</p>
+</div>
+<div id="question-3-for-each-of-joy-despair-and-meh-which-candy-bar-revived-the-most-of-these-ratings" class="section level3">
+<h3>Question 3: For each of joy, despair and meh, which candy bar revived the most of these ratings?</h3>
+</div>
+<div id="question-4-how-many-people-rated-starburst-as-despair" class="section level3">
+<h3>Question 4: How many people rated Starburst as despair?</h3>
+<pre class="r"><code>#filter by candy type and rating, then count occurrences
+star_desp &lt;- candy_cleaned %&gt;%
+  filter(candy_type == &quot;starburst&quot;) %&gt;%
+  filter(rating == &quot;DESPAIR&quot;)</code></pre>
+<p>Answer: The total number of people who rated Starburst as despair is 1990</p>
 </div>
 
 

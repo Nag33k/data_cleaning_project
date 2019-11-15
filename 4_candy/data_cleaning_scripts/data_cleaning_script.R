@@ -2,12 +2,13 @@ library(tidyverse)
 library(janitor)
 library(readxl)
 library(tidyselect)
+library(here)
 
 #start by loading in data
 
-raw_2015 <- read_xlsx("raw_data/boing-boing-candy-2015.xlsx")
-raw_2016 <- read_xlsx("raw_data/boing-boing-candy-2016.xlsx")
-raw_2017 <- read_xlsx("raw_data/boing-boing-candy-2017.xlsx")
+raw_2015 <- read_xlsx(here::here("raw_data/boing-boing-candy-2015.xlsx"))
+raw_2016 <- read_xlsx(here::here("raw_data/boing-boing-candy-2016.xlsx"))
+raw_2017 <- read_xlsx(here::here("raw_data/boing-boing-candy-2017.xlsx"))
 
 #-------------------------------------------------------------------------
 
@@ -177,7 +178,7 @@ sort(unique(candy_cleaned$country))
 
 #write to csv
 
-write_csv(candy_cleaned, "clean_data/candy_cleaned.csv")
+write_csv(candy_cleaned, here::here("clean_data/candy_cleaned.csv"))
 
 #-----------------extracting ages and going/not-going-------------------
 
@@ -230,4 +231,4 @@ going_total <- clean_2015_going %>%
 
 
 
-write_csv(going_total, "clean_data/going_total.csv")
+write_csv(going_total, here::here("clean_data/going_total.csv"))
