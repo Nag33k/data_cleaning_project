@@ -20,7 +20,7 @@ First: import clean data:
 cakes_clean <- read_csv(here::here("clean_data/cakes_clean.csv"))
 ```
 
-## Question 1: Which cake has the most cocoa in it?
+## Locating the cake with the most cocoa:
 
 ```{r}
 most_cocoa <- cakes_clean %>%
@@ -31,7 +31,7 @@ most_cocoa <- cakes_clean %>%
 kable(most_cocoa)
 ```
 
-## Question 2: For sponge cake, how many cups of ingredients are used in total?
+## Calculating the total cups of ingredients used in sponge cake: 
 
 Let's look at the ingredients:
 ```{r}
@@ -71,7 +71,7 @@ kable(round(((sum(sponge_teaspoons$amount)) * 0.0208333) +
 
 So there are 4.54 cups of ingredients in a sponge cake. 
 
-## Question 3: How many ingredients are measured in teaspoons?
+## Calculating the number of ingredients measured in teaspoons: 
 
 ```{r}
 #pull out teaspoons, count unique items:
@@ -84,7 +84,7 @@ kable(count(teaspoons))
 
 45 different ingredients are measured in teaspoons.
 
-## Question 4: Which cake has the most unique ingredients?
+## Locating the cake with the most unique ingredients: 
 
 ```{r}
 #group by cake, summarise by unique ingredient count:
@@ -101,7 +101,7 @@ kable(unique_ingredients)
 Babas au Rhum	and One Bowl Chocolate cakes are tied with 11 unique ingredients apiece.
 
 
-## Question 5: Which ingredients are used only once?
+## Locating ingredients that are used only once:
 
 ```{r}
 

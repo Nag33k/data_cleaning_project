@@ -385,12 +385,12 @@ summary {
 <pre class="r"><code>candy_cleaned &lt;- read_csv(here::here(&quot;clean_data/candy_cleaned.csv&quot;))
 going_total &lt;- read_csv(here::here(&quot;clean_data/going_total.csv&quot;))</code></pre>
 </div>
-<div id="question-1-what-is-the-total-number-of-candy-ratings-given-across-the-three-years.-number-of-candy-ratings-not-number-of-raters.-dont-count-missing-values" class="section level3">
-<h3>Question 1: What is the total number of candy ratings given across the three years. (number of candy ratings, not number of raters. Don’t count missing values)</h3>
+<div id="calculating-the-total-number-of-candy-ratings-given-across-the-three-years-not-including-missing-values" class="section level3">
+<h3>Calculating the total number of candy ratings given across the three years, not including missing values:</h3>
 <p>Answer: NA’s have already been removed and our tibble is in long-form based on ratings, so we can just count the number of items. The total number of candy ratings given across the three years is 772352</p>
 </div>
-<div id="question-2-what-was-the-average-age-of-people-who-are-going-out-trick-or-treating-and-the-average-age-of-people-not-going-trick-or-treating" class="section level3">
-<h3>Question 2: What was the average age of people who are going out trick or treating and the average age of people not going trick or treating?</h3>
+<div id="calculating-the-average-age-of-people-going-out-trick-or-treating-vs-not-trick-or-treating" class="section level3">
+<h3>Calculating the average age of people going out trick or treating vs not trick or treating:</h3>
 <pre class="r"><code>#just need to sort by going or not going and take the mean age
 going &lt;- going_total %&gt;%
   filter(going == &quot;Yes&quot;)
@@ -399,11 +399,8 @@ not_going &lt;- going_total %&gt;%
   filter(going == &quot;No&quot;)</code></pre>
 <p>The average age of people who are going out trick or treating is 35.11 years old, and the average age of people who are not going out trick or treating is 39.16 years old.</p>
 </div>
-<div id="question-3-for-each-of-joy-despair-and-meh-which-candy-bar-revived-the-most-of-these-ratings" class="section level3">
-<h3>Question 3: For each of joy, despair and meh, which candy bar revived the most of these ratings?</h3>
-</div>
-<div id="question-4-how-many-people-rated-starburst-as-despair" class="section level3">
-<h3>Question 4: How many people rated Starburst as despair?</h3>
+<div id="calculating-the-number-of-people-who-rated-starburst-as-despair" class="section level3">
+<h3>Calculating the number of people who rated Starburst as despair:</h3>
 <pre class="r"><code>#filter by candy type and rating, then count occurrences
 star_desp &lt;- candy_cleaned %&gt;%
   filter(candy_type == &quot;starburst&quot;) %&gt;%

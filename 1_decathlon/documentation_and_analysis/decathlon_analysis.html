@@ -376,8 +376,8 @@ summary {
 <p>First things first, load in the data:</p>
 <pre class="r"><code>decathlon_tidy &lt;- read_csv(here::here(&quot;clean_data/decathlon_tidy.csv&quot;))</code></pre>
 </div>
-<div id="question-1-who-had-the-longest-long-jump-seen-in-the-data" class="section level2">
-<h2>Question 1: Who had the longest long jump seen in the data?</h2>
+<div id="locating-the-longest-long-jump" class="section level2">
+<h2>Locating the Longest Long Jump:</h2>
 <pre class="r"><code>longest_jump &lt;- decathlon_tidy %&gt;%
   #filter by long jump
   filter(event == &quot;long_jump&quot;) %&gt;%
@@ -409,8 +409,8 @@ kable(longest_jump)</code></pre>
 </table>
 <p>Out of all competitors at both events, Clay showed the longest long jump at OlympicG with a score of 7.96.</p>
 </div>
-<div id="question-2-what-was-the-average-100m-time-in-each-competition" class="section level2">
-<h2>Question 2: What was the average 100m time in each competition?</h2>
+<div id="calculating-the-average-100m-time-in-each-competition" class="section level2">
+<h2>Calculating the Average 100m time in each competition:</h2>
 <pre class="r"><code>avg_100m &lt;- decathlon_tidy %&gt;%
   filter(event == &quot;x100m&quot;) %&gt;%
   group_by(competition) %&gt;%
@@ -438,8 +438,8 @@ kable(avg_100m)</code></pre>
 </table>
 <p>OlympicG had faster 100m runs overall, with an average time of 10.92 compared to Decastar’s 11.18.</p>
 </div>
-<div id="question-3-who-had-the-highest-total-points-across-both-competitions" class="section level2">
-<h2>Question 3: Who had the highest total points across both competitions?</h2>
+<div id="finding-the-competitor-with-the-highest-total-points-across-both-competitions" class="section level2">
+<h2>Finding the Competitor with the Highest Total Points Across Both Competitions:</h2>
 <pre class="r"><code>highest_points_total &lt;- decathlon_tidy %&gt;%
   filter(event == &quot;points&quot;) %&gt;%
   group_by(name) %&gt;%
@@ -464,8 +464,8 @@ kable(highest_points_total)</code></pre>
 </table>
 <p>Sebrle had the highest total points across both competitions with 17,110 points in total. This is a somewhat unfair question as not all competitors competed in both events, but this was the question from the brief.</p>
 </div>
-<div id="question-4-what-was-the-shot-put-scores-for-the-top-three-competitors-in-each-competition" class="section level2">
-<h2>Question 4: What was the shot-put scores for the top three competitors in each competition?</h2>
+<div id="calculating-the-shot-put-scores-for-the-top-three-competitors-in-each-competition" class="section level2">
+<h2>Calculating the Shot-Put Scores for the Top Three Competitors in Each Competition:</h2>
 <p>Assumption: “top three competitors” means top three by rank, not top-most shot put scores.</p>
 <pre class="r"><code>shot_scores &lt;- decathlon_tidy %&gt;%
   #separate the filters to be sure event doesn't interfere with rank:
@@ -529,8 +529,8 @@ kable(shot_scores)</code></pre>
 </tbody>
 </table>
 </div>
-<div id="question-5-what-was-the-average-points-for-competitors-who-ran-the-400m-in-less-than-50-seconds-vs.those-than-ran-400m-in-more-than-50-seconds" class="section level2">
-<h2>Question 5: What was the average points for competitors who ran the 400m in less than 50 seconds vs. those than ran 400m in more than 50 seconds?</h2>
+<div id="calculating-the-average-points-for-competitors-who-ran-the-400m-in-less-than-50-seconds-vs.those-running-in-more-than-50-seconds" class="section level2">
+<h2>Calculating the Average Points for Competitors who Ran the 400m in less than 50 seconds vs. those running in more than 50 seconds:</h2>
 <p>First, check to see if we need to worry about any times of 50.00 seconds even. If there are, the question needs re-phrasing to decide whether 50.00 falls in the higher or lower category:</p>
 <pre class="r"><code>#check to see if any competitors got 50.00 seconds even:
 check_unique &lt;- decathlon_tidy %&gt;%

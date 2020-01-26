@@ -372,8 +372,8 @@ summary {
 <p>No assumptions had to be made thus far in data cleaning. I have simply extracted the data necessary to answer the brief questions.</p>
 <p>First: import data.</p>
 <pre class="r"><code>obs_clean &lt;- read_csv(here::here(&quot;clean_data/obs_clean.csv&quot;))</code></pre>
-<div id="question-1-which-bird-had-the-most-individual-sightings" class="section level2">
-<h2>Question 1: Which bird had the most individual sightings?</h2>
+<div id="locating-the-bird-with-the-most-individual-sightings" class="section level2">
+<h2>Locating the bird with the most individual sightings:</h2>
 <pre class="r"><code>#filter by count = 1, group by bird, count occurrences
 ind_sight &lt;- obs_clean %&gt;%
   filter(count == 1) %&gt;%
@@ -403,8 +403,8 @@ kable(ind_sight[1, ])</code></pre>
 </tbody>
 </table>
 </div>
-<div id="question-2-which-bird-had-the-highest-total-count" class="section level2">
-<h2>Question 2: Which bird had the highest total count?</h2>
+<div id="locating-the-bird-with-the-highest-total-count" class="section level2">
+<h2>Locating the bird with the highest total count:</h2>
 <pre class="r"><code>#group by bird, summarise sum of count
 
 highest_count &lt;- obs_clean %&gt;%
@@ -432,8 +432,8 @@ kable(highest_count[1, ])</code></pre>
 </tbody>
 </table>
 </div>
-<div id="question-3-which-bird-had-the-highest-total-count-above-a-latitude-of--30" class="section level2">
-<h2>Question 3: Which bird had the highest total count above a latitude of -30?</h2>
+<div id="locating-the-bird-with-the-highest-total-count-above-a-latitude-of--30" class="section level2">
+<h2>Locating the bird with the highest total count above a latitude of -30:</h2>
 <pre class="r"><code>#filter by latitudes above -30, repeat total count from above
 
 above_30 &lt;- obs_clean %&gt;%
@@ -462,8 +462,8 @@ kable(above_30[1, ])</code></pre>
 </tbody>
 </table>
 </div>
-<div id="question-4-how-many-different-types-of-birds-were-only-ever-seen-in-groups-of-1" class="section level2">
-<h2>Question 4: How many different types of birds were only ever seen in groups of 1?</h2>
+<div id="calculating-how-many-different-types-of-birds-only-ever-seen-in-groups-of-1" class="section level2">
+<h2>Calculating how many different types of birds only ever seen in groups of 1:</h2>
 <pre class="r"><code>#&quot;group of 1&quot; just means count of 1. No other alternative in the 
 #data documentation. Filter by count = 1, count unique bird names.
 
@@ -488,8 +488,8 @@ kable(length(unique(groups_of_1$common_name)))</code></pre>
 </tbody>
 </table>
 </div>
-<div id="question-5-how-many-penguins-were-seen-hint-there-are-many-types-of-penguin" class="section level2">
-<h2>Question 5: How many penguins were seen? (Hint: there are many types of penguin)</h2>
+<div id="calculating-the-number-of-penguins-seen" class="section level2">
+<h2>Calculating the number of penguins seen:</h2>
 <pre class="r"><code>#will have to locate all instances of &quot;penguin&quot; in common_name, case-insensitive.
 
 penguins &lt;- obs_clean %&gt;%

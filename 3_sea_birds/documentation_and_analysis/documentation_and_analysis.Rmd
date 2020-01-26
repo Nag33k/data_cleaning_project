@@ -21,7 +21,7 @@ obs_clean <- read_csv(here::here("clean_data/obs_clean.csv"))
 ```
 
 
-## Question 1: Which bird had the most individual sightings?
+## Locating the bird with the most individual sightings: 
 
 ```{r}
 #filter by count = 1, group by bird, count occurrences
@@ -36,7 +36,7 @@ ind_sight <- obs_clean %>%
 kable(ind_sight[1, ])
 ```
 
-## Question 2: Which bird had the highest total count?
+## Locating the bird with the highest total count: 
 
 ```{r}
 #group by bird, summarise sum of count
@@ -49,7 +49,7 @@ highest_count <- obs_clean %>%
 kable(highest_count[1, ])
 ```
 
-## Question 3: Which bird had the highest total count above a latitude of -30?
+## Locating the bird with the highest total count above a latitude of -30: 
 
 ```{r}
 #filter by latitudes above -30, repeat total count from above
@@ -63,7 +63,7 @@ above_30 <- obs_clean %>%
 kable(above_30[1, ])
 ```
 
-## Question 4: How many different types of birds were only ever seen in groups of 1?
+## Calculating how many different types of birds only ever seen in groups of 1:
 
 ```{r}
 #"group of 1" just means count of 1. No other alternative in the 
@@ -79,7 +79,7 @@ groups_of_1 <- obs_clean %>%
 kable(length(unique(groups_of_1$common_name)))
 ```
 
-## Question 5: How many penguins were seen? (Hint: there are many types of penguin)
+## Calculating the number of penguins seen: 
 
 ```{r}
 #will have to locate all instances of "penguin" in common_name, case-insensitive.

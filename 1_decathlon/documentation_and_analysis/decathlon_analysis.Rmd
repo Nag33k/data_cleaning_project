@@ -25,7 +25,7 @@ First things first, load in the data:
 decathlon_tidy <- read_csv(here::here("clean_data/decathlon_tidy.csv"))
 ```
 
-## Question 1: Who had the longest long jump seen in the data?
+## Locating the Longest Long Jump:
 
 ```{r}
 longest_jump <- decathlon_tidy %>%
@@ -41,7 +41,7 @@ kable(longest_jump)
 
 Out of all competitors at both events, Clay showed the longest long jump at OlympicG with a score of 7.96.
 
-## Question 2: What was the average 100m time in each competition?
+## Calculating the Average 100m time in each competition:
 
 ```{r}
 avg_100m <- decathlon_tidy %>%
@@ -56,7 +56,7 @@ kable(avg_100m)
 OlympicG had faster 100m runs overall, with an average time of 10.92 compared to Decastar's 11.18. 
 
 
-## Question 3: Who had the highest total points across both competitions?
+## Finding the Competitor with the Highest Total Points Across Both Competitions:
 
 ```{r}
 highest_points_total <- decathlon_tidy %>%
@@ -71,7 +71,7 @@ kable(highest_points_total)
 
 Sebrle had the highest total points across both competitions with 17,110 points in total. This is a somewhat unfair question as not all competitors competed in both events, but this was the question from the brief. 
 
-## Question 4: What was the shot-put scores for the top three competitors in each competition?
+## Calculating the Shot-Put Scores for the Top Three Competitors in Each Competition:
 
 Assumption: "top three competitors" means top three by rank, not top-most shot put scores.
 ```{r}
@@ -83,7 +83,7 @@ shot_scores <- decathlon_tidy %>%
 kable(shot_scores)
 ```
 
-## Question 5: What was the average points for competitors who ran the 400m in less than 50 seconds vs. those than ran 400m in more than 50 seconds?
+## Calculating the Average Points for Competitors who Ran the 400m in less than 50 seconds vs. those running in more than 50 seconds:
 
 First, check to see if we need to worry about any times of 50.00 seconds even. If there are, the question needs re-phrasing to decide whether 50.00 falls in the higher or lower category:
 ```{r}

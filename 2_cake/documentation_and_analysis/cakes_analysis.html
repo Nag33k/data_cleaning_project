@@ -373,8 +373,8 @@ summary {
 <p>The only assumption made during data cleaning was that “Sour cream cup” could be measured in terms of “one” units. This makes intuitive sense as the name suggests that it comes in pre-packaged cups, but the cups might not necessarily be exactly one cup measurement.</p>
 <p>First: import clean data:</p>
 <pre class="r"><code>cakes_clean &lt;- read_csv(here::here(&quot;clean_data/cakes_clean.csv&quot;))</code></pre>
-<div id="question-1-which-cake-has-the-most-cocoa-in-it" class="section level2">
-<h2>Question 1: Which cake has the most cocoa in it?</h2>
+<div id="locating-the-cake-with-the-most-cocoa" class="section level2">
+<h2>Locating the cake with the most cocoa:</h2>
 <pre class="r"><code>most_cocoa &lt;- cakes_clean %&gt;%
   filter(ingredient == &quot;Cocoa&quot;) %&gt;%
   arrange(desc(amount)) %&gt;%
@@ -402,8 +402,8 @@ kable(most_cocoa)</code></pre>
 </tbody>
 </table>
 </div>
-<div id="question-2-for-sponge-cake-how-many-cups-of-ingredients-are-used-in-total" class="section level2">
-<h2>Question 2: For sponge cake, how many cups of ingredients are used in total?</h2>
+<div id="calculating-the-total-cups-of-ingredients-used-in-sponge-cake" class="section level2">
+<h2>Calculating the total cups of ingredients used in sponge cake:</h2>
 <p>Let’s look at the ingredients:</p>
 <pre class="r"><code>sponge_ingredients &lt;- cakes_clean %&gt;%
   select(cakes, measure, ingredient, amount) %&gt;%
@@ -499,8 +499,8 @@ kable(round(((sum(sponge_teaspoons$amount)) * 0.0208333) +
 </table>
 <p>So there are 4.54 cups of ingredients in a sponge cake.</p>
 </div>
-<div id="question-3-how-many-ingredients-are-measured-in-teaspoons" class="section level2">
-<h2>Question 3: How many ingredients are measured in teaspoons?</h2>
+<div id="calculating-the-number-of-ingredients-measured-in-teaspoons" class="section level2">
+<h2>Calculating the number of ingredients measured in teaspoons:</h2>
 <pre class="r"><code>#pull out teaspoons, count unique items:
 
 teaspoons &lt;- cakes_clean %&gt;%
@@ -521,8 +521,8 @@ kable(count(teaspoons))</code></pre>
 </table>
 <p>45 different ingredients are measured in teaspoons.</p>
 </div>
-<div id="question-4-which-cake-has-the-most-unique-ingredients" class="section level2">
-<h2>Question 4: Which cake has the most unique ingredients?</h2>
+<div id="locating-the-cake-with-the-most-unique-ingredients" class="section level2">
+<h2>Locating the cake with the most unique ingredients:</h2>
 <pre class="r"><code>#group by cake, summarise by unique ingredient count:
 
 unique_ingredients &lt;- cakes_clean %&gt;%
@@ -556,12 +556,15 @@ kable(unique_ingredients)</code></pre>
 </table>
 <p>Babas au Rhum and One Bowl Chocolate cakes are tied with 11 unique ingredients apiece.</p>
 </div>
-<div id="question-5-which-ingredients-are-used-only-once" class="section level2">
-<h2>Question 5: Which ingredients are used only once?</h2>
+<div id="locating-ingredients-that-are-used-only-once" class="section level2">
+<h2>Locating ingredients that are used only once:</h2>
 <pre class="r"><code>ingredients_once &lt;- cakes_clean %&gt;%
+  #group by ingredients
   group_by(ingredient) %&gt;%
+  #count number of times each ingredient appears
   count(ingredient) %&gt;%
   rename(&quot;times_used&quot; = &quot;n&quot;) %&gt;%
+  #filter to only ingredients used once
   filter(times_used == 1)
 
 kable(ingredients_once)</code></pre>
